@@ -43,7 +43,7 @@ def main():
         qualidade = "192"
 
         pasta_projeto = os.path.dirname(os.path.abspath(__file__))
-        pasta_destino = os.path.join(pasta_projeto, "musicas-baixadas")
+        pasta_destino = os.path.join(pasta_projeto, "downloads")
         os.makedirs(pasta_destino, exist_ok=True)
 
         ffmpeg_path = os.path.join(pasta_projeto, "ffmpeg", "ffmpeg.exe")
